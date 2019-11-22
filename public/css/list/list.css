@@ -1,0 +1,104 @@
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+#container{
+    height: 100%;
+    display: flex;
+}
+
+.slider{
+    width: 190px;
+    height: 100%;
+    flex-shrink: 0;
+    background: #f9f9f9;
+    border-right:1px solid #e5e5e5;
+}
+
+.slider ul li{
+    line-height: 44px;
+    width: 190px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    font-size:14px;
+}
+.slider ul .active{
+    background: #fff;
+    color: #333;
+}
+.content{
+    flex: 1;
+}
+
+/* addBooks */
+.addBooks{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.addBooks form{
+    width: 400px;
+}
+#booksLogo{
+    opacity: 0;
+    width:100%;
+    height: 100%;
+}
+.upload{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+    _width: 72px;
+}
+.upload div{
+    width: 100%;
+    height:122px;
+    border:1px dashed #ccc;
+    position: absolute;
+    text-align: center;
+    line-height: 96px;
+    font-size: 14px;
+}
+
+/* booksList */
+
+.booksList{
+    padding: 20px;
+}
+.booksList th{
+    text-align: center;
+}
+.booksList td{
+    line-height: 137px !important;
+    text-align: center;
+}
+
+
+.texts{
+    float: left;
+    padding:10px 20px;
+}
+
+.table-striped thead tr th{
+    text-align: center;
+}
+.table-striped tbody tr td{
+    line-height: 110px !important;
+    text-align: center;
+}
+.user-tbody tr td{
+    line-height: 66px !important;
+    text-align: center;
+}
+.user-img{
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    margin-top:28px;
+    margin-left: 12px;
+}
